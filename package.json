@@ -1,0 +1,19 @@
+{
+  "name": "oownee",
+  "version": "1.0.0",
+  "description": "Oownee landing page",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/main.css",
+    "start": "npx tailwindcss -i ./src/style.css -o ./dist/main.css --watch"
+  },
+  "author": "Usman",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^3.13.2",
+    "tailwindcss": "^3.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
